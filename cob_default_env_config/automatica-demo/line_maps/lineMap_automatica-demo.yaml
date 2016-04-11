@@ -1,107 +1,90 @@
 source_id: "laserscan"
 features:
-  - id: 1
-    source: [-4.0, 3.0, 0.0]
-    target: [4.0, 3.0, 0.0]
+  - id: 0
+    source: [-4, 3, 0.0]
+    target: [4, 3, 0.0]
     description: NorthWall
+  - id: 1
+    source: [4, 3, 0.0]
+    target: [4, -3, 0.0]
+    description: EastWall
   - id: 2
-    source: [4,0, 3.0, 0.0]
-    target: [4.0, -3.0, 0.0]
-    description: WestWall
-  - id: 3
-    source: [-4.0, -3.0, 0.0]
-    target: [4.0, -3.0, 0.0]
+    source: [-4, -3, 0.0]
+    target: [4, -3, 0.0]
     description: SouthWall
+  - id: 3
+    source: [-4, 3, 0.0]
+    target: [-4, -3, 0.0]
+    description: WestWall
   - id: 4
-    source: [-4,0, 3.0, 0.0]
-    target: [-4.0, -3.0, 0.0]
-    description: Eastwall
-  - id: 5
-    source: [-4,0, -1.0, 0.0]
-    target: [-1.0, -1.0, 0.0]
-    description: InfoNorth
-  - id: 6
-    source: [-1,0, -1.0, 0.0]
-    target: [-1.0, -3.0, 0.0]
-    description: InfoWest
-  - id: 7
-    source: [-4,0, 3.0, 0.0]
-    target: [-3.5, 3.0, 0.0]
-    description: SourceNorth
-  - id: 8
-    source: [-3.5, 3.0, 0.0]
-    target: [-3.5, 1.0, 0.0]
+    source: [-3, 3, 0.0]
+    target: [-3, 2, 0.0]
     description: SourceWest
-  - id: 9
-    source: [-3.5, 1.0, 0.0]
-    target: [-4.0, 1.0, 0.0]
+  - id: 5
+    source: [-3, 2, 0.0]
+    target: [-4, 2, 0.0]
     description: SourceSouth
-  - id: 10
-    source: [4,0, -1.0, 0.0]
-    target: [3.5, -1.0, 0.0]
+  - id: 6
+    source: [4, -2, 0.0]
+    target: [3.2, -2, 0.0]
     description: DrainNorth
-  - id: 11
-    source: [3.5, -1.0, 0.0]
-    target: [3.5, -3.0, 0.0]
-    description: DrainSouth
-  - id: 12
-    source: [3.5, -3.0, 0.0]
-    target: [4.0, -3.0, 0.0]
-    description: DrainEast
-  - id: 13
-    source: [-1.0, 0.025, 0.0]
-    target: [0.05, 0.025, 0.0]
+  - id: 7
+    source: [3, -2, 0.0]
+    target: [3, -3, 0.0]
+    description: DrainWest
+  - id: 8
+    source: [-0.5, 0.525, 0.0]
+    target: [0.55, 0.525, 0.0]
     description: ObstacleSouthNorthNorth
-  - id: 14
-    source: [0.05, 0.025, 0.0]
-    target: [0.05, -2.0, 0.0]
+  - id: 9
+    source: [0.55, 0.525, 0.0]
+    target: [0.55, -1.5, 0.0]
     description: ObstacleSouthNorthEast
-  - id: 15
-    source: [0.05, -1.975, 0.0]
-    target: [1.0, -1.975, 0.0]
+  - id: 10
+    source: [0.55, -1.475, 0.0]
+    target: [1.5, -1.475, 0.0]
     description: ObstacleSouthSouthNorth
-  - id: 16
-    source: [1.0, -1.975, 0.0]
-    target: [1.0, -2.025, 0.0]
+  - id: 11
+    source: [1.5, -1.475, 0.0]
+    target: [1.5, -1.525, 0.0]
     description: ObstacleSouthSouthEast
-  - id: 17
-    source: [1.0, -2.025, 0.0]
-    target: [0.0, -2.025, 0.0]
+  - id: 12
+    source: [1.5, -1.525, 0.0]
+    target: [0.5, -1.525, 0.0]
     description: ObstacleSouthSouthSouth
-  - id: 18
-    source: [0.0, -2.025, 0.0]
-    target: [0.0, -0.025, 0.0]
+  - id: 13
+    source: [0.5, -1.525, 0.0]
+    target: [0.5, 0.475, 0.0]
     description: ObstacleSouthSouthWest
-  - id: 19
-    source: [0.0, -0.025, 0.0]
-    target: [-1.0, -0.025, 0.0]
+  - id: 14
+    source: [0.5, 0.475, 0.0]
+    target: [-0.5, 0.475, 0.0]
     description: ObstacleSouthNorthSouth
-  - id: 20
-    source: [-1.0, -0.025, 0.0]
-    target: [-1.0, 0.025, 0.0]
+  - id: 15
+    source: [-0.5, 0.475, 0.0]
+    target: [-0.5, 0.525, 0.0]
     description: ObstacleSouthNorthWest
-
-  - id: 21
-    source: [-2.0, 1.025, 0.0]
-    target: [1.05, 1.025, 0.0]
+  - id: 16
+    source: [-1.5, 1.525, 0.0]
+    target: [1.55, 1.525, 0.0]
     description: ObstacleNorthNorth
-  - id: 22
-    source: [1.05, 1.025, 0.0]
-    target: [1.05, -0.475, 0.0]
+  - id: 17
+    source: [1.55, 1.525, 0.0]
+    target: [1.55, 0.075, 0.0]
     description: ObstacleNorthEast
-  - id: 23
-    source: [1.05, -0.475, 0.0]
-    target: [1.0, -0.475, 0.0]
+  - id: 18
+    source: [1.55, 0.075, 0.0]
+    target: [1.5, 0.075, 0.0]
     description: ObstacleNorthSouthSouth
-  - id: 24
-    source: [1.0, -0.475, 0.0]
-    target: [1.0, 0.975, 0.0]
+  - id: 19
+    source: [1.5, 0.075, 0.0]
+    target: [1.5, 1.475, 0.0]
     description: ObstacleNorthSouthWest
-  - id: 25
-    source: [1.0, 0.975, 0.0]
-    target: [-2.0, 0.975, 0.0]
+  - id: 20
+    source: [1.5, 1.475, 0.0]
+    target: [-1.5, 1.475, 0.0]
     description: ObstacleNorthNorthSouth
-  - id: 26
-    source: [-2.0, 0.975, 0.0]
-    target: [-2.0, 1.025, 0.0]
+  - id: 21
+    source: [-1.5, 1.475, 0.0]
+    target: [-1.5, 1.525, 0.0]
     description: ObstacleNorthNorthWest
