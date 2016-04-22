@@ -6,10 +6,10 @@ control points:
     location: [-2.1, 2.2]
     transition: []
   - id: cp 02
-    location: [-2.1, 1]
+    location: [-2.099910020828247, 0.800000011920929]
     transition: []
   - id: cp 03
-    location: [-2.100189924240112, -0.2000000029802322]
+    location: [-2.099999904632568, -0.800000011920929]
     transition: []
   - id: cp 04
     location: [-2.1, 1.3]
@@ -18,16 +18,16 @@ control points:
     location: [-3.3, 1.3]
     transition: []
   - id: cp 21
-    location: [1, 1]
+    location: [0.800000011920929, 0.800000011920929]
     transition: []
   - id: cp 22
-    location: [1, -1]
+    location: [1, -0.999888002872467]
     transition: []
   - id: cp 31
-    location: [-0.2000313252210617, -0.20000059902668]
+    location: [-0.4000000059604645, -0.4000000059604645]
     transition: []
   - id: cp 32
-    location: [-0.2000160068273544, -2.200520038604736]
+    location: [-0.800000011920929, -2.299999952316284]
     transition: []
   - id: cp 51
     location: [2.200530052185059, 2.200000047683716]
@@ -36,10 +36,10 @@ control points:
     location: [2.200330018997192, -1.000409960746765]
     transition: []
   - id: cp 53
-    location: [2.200000047683716, -2.199650049209595]
+    location: [2.200419902801514, -2.299999952316284]
     transition: []
   - id: cp 54
-    location: [2.200000047683716, -1.302049994468689]
+    location: [2.199999809265137, -1.302050471305847]
     transition: []
   - id: cp 55
     location: [2.3, -2.3]
