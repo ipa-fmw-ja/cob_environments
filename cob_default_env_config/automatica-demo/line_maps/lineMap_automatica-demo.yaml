@@ -26,43 +26,43 @@ features:
     description: SourceSouth
   - id: 6
     source: [4, -2, 0.0]
-    target: [3.2, -2, 0.0]
+    target: [3, -2.00026, 0.0]
     description: DrainNorth
   - id: 7
     source: [3, -2, 0.0]
     target: [3, -3, 0.0]
     description: DrainWest
   - id: 8
-    source: [-0.5, 0.525, 0.0]
-    target: [0.55, 0.525, 0.0]
+    source: [-0.75, 0.275, 0.0]
+    target: [0.3, 0.275, 0.0]
     description: ObstacleSouthNorthNorth
   - id: 9
-    source: [0.55, 0.525, 0.0]
-    target: [0.55, -1.5, 0.0]
+    source: [0.3, 0.275, 0.0]
+    target: [0.3, -1.725, 0.0]
     description: ObstacleSouthNorthEast
   - id: 10
-    source: [0.55, -1.475, 0.0]
-    target: [1.5, -1.475, 0.0]
+    source: [0.3, -1.725, 0.0]
+    target: [1.25, -1.725, 0.0]
     description: ObstacleSouthSouthNorth
   - id: 11
-    source: [1.5, -1.475, 0.0]
-    target: [1.5, -1.525, 0.0]
+    source: [1.25, -1.725, 0.0]
+    target: [1.25, -1.775, 0.0]
     description: ObstacleSouthSouthEast
   - id: 12
-    source: [1.5, -1.525, 0.0]
-    target: [0.5, -1.525, 0.0]
+    source: [1.25, -1.775, 0.0]
+    target: [0.25, -1.775, 0.0]
     description: ObstacleSouthSouthSouth
   - id: 13
-    source: [0.5, -1.525, 0.0]
-    target: [0.5, 0.475, 0.0]
+    source: [0.25, -1.775, 0.0]
+    target: [0.25, 0.225, 0.0]
     description: ObstacleSouthSouthWest
   - id: 14
-    source: [0.5, 0.475, 0.0]
-    target: [-0.5, 0.475, 0.0]
+    source: [0.25, 0.225, 0.0]
+    target: [-0.75, 0.225, 0.0]
     description: ObstacleSouthNorthSouth
   - id: 15
-    source: [-0.5, 0.475, 0.0]
-    target: [-0.5, 0.525, 0.0]
+    source: [-0.75, 0.225, 0.0]
+    target: [-0.75, 0.275, 0.0]
     description: ObstacleSouthNorthWest
   - id: 16
     source: [-1.5, 1.525, 0.0]

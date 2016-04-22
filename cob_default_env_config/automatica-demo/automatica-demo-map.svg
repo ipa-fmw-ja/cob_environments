@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -89,22 +89,22 @@
        id="rect3759"
        width="20"
        height="1"
-       x="170"
-       y="881.36218" />
+       x="165"
+       y="886.36218" />
     <rect
        style="fill:#4d4d4d;fill-opacity:1;stroke:none"
        id="rect3761"
        width="1"
        height="40"
-       x="190"
-       y="881.36218" />
+       x="185"
+       y="886.36218" />
     <rect
        style="fill:#4d4d4d;fill-opacity:1;stroke:none"
        id="rect3763"
        width="20"
        height="1"
-       x="190"
-       y="920.36218" />
+       x="185"
+       y="925.36218" />
     <rect
        style="fill:#4d4d4d;fill-opacity:1;stroke:none"
        id="rect3765"
