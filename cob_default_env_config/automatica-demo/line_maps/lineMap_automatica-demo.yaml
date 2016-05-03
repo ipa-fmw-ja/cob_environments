@@ -16,6 +16,7 @@ features:
     source: [-4, 3, 0.0]
     target: [-4, -3, 0.0]
     description: WestWall
+
   - id: 4
     source: [-3, 3, 0.0]
     target: [-3, 2, 0.0]
@@ -32,59 +33,26 @@ features:
     source: [3, -2, 0.0]
     target: [3, -3, 0.0]
     description: DrainWest
+
   - id: 8
-    source: [-0.75, 0.275, 0.0]
-    target: [0.3, 0.275, 0.0]
+    source: [-0.75, 0.25, 0.0]
+    target: [0.275, 0.25, 0.0]
     description: ObstacleSouthNorthNorth
   - id: 9
-    source: [0.3, 0.275, 0.0]
-    target: [0.3, -1.725, 0.0]
+    source: [0.275, 0.25, 0.0]
+    target: [0.275, -1.725, 0.0]
     description: ObstacleSouthNorthEast
   - id: 10
     source: [0.3, -1.725, 0.0]
     target: [1.25, -1.725, 0.0]
     description: ObstacleSouthSouthNorth
-  - id: 11
-    source: [1.25, -1.725, 0.0]
-    target: [1.25, -1.775, 0.0]
-    description: ObstacleSouthSouthEast
-  - id: 12
-    source: [1.25, -1.775, 0.0]
-    target: [0.25, -1.775, 0.0]
-    description: ObstacleSouthSouthSouth
-  - id: 13
-    source: [0.25, -1.775, 0.0]
-    target: [0.25, 0.225, 0.0]
-    description: ObstacleSouthSouthWest
-  - id: 14
-    source: [0.25, 0.225, 0.0]
-    target: [-0.75, 0.225, 0.0]
-    description: ObstacleSouthNorthSouth
-  - id: 15
-    source: [-0.75, 0.225, 0.0]
-    target: [-0.75, 0.275, 0.0]
-    description: ObstacleSouthNorthWest
+
   - id: 16
     source: [-1.5, 1.525, 0.0]
-    target: [1.55, 1.525, 0.0]
+    target: [1.525, 1.525, 0.0]
     description: ObstacleNorthNorth
   - id: 17
-    source: [1.55, 1.525, 0.0]
-    target: [1.55, 0.075, 0.0]
+    source: [1.525, 1.525, 0.0]
+    target: [1.525, 0.075, 0.0]
     description: ObstacleNorthEast
-  - id: 18
-    source: [1.55, 0.075, 0.0]
-    target: [1.5, 0.075, 0.0]
-    description: ObstacleNorthSouthSouth
-  - id: 19
-    source: [1.5, 0.075, 0.0]
-    target: [1.5, 1.475, 0.0]
-    description: ObstacleNorthSouthWest
-  - id: 20
-    source: [1.5, 1.475, 0.0]
-    target: [-1.5, 1.475, 0.0]
-    description: ObstacleNorthNorthSouth
-  - id: 21
-    source: [-1.5, 1.475, 0.0]
-    target: [-1.5, 1.525, 0.0]
-    description: ObstacleNorthNorthWest
+

@@ -82,50 +82,51 @@ path segments:
     type: line
     width: 0.7
     directed: false
-    control points: [cp 01, cp 51]
+    control points: [cp 01, cp 51, cp 52]
     users: [human, robot]
+
   - id: ps 21
     type: line
     width: 0.5
     directed: false
-    control points: [cp 02, cp 21]
+    control points: [cp 02, cp 21, cp 22, cp 52]
     users: [human, robot]
-  - id: ps 22
-    type: line
-    width: 0.5
-    directed: false
-    control points: [cp 21, cp 22]
-    users: [human, robot]
-  - id: ps 23
-    type: line
-    width: 0.5
-    directed: false
-    control points: [cp 22, cp 52]
-    users: [human, robot]
+  # - id: ps 22
+  #   type: line
+  #   width: 0.5
+  #   directed: false
+  #   control points: [cp 21, cp 22]
+  #   users: [human, robot]
+  # - id: ps 23
+  #   type: line
+  #   width: 0.5
+  #   directed: false
+  #   control points: [cp 22, cp 52]
+  #   users: [human, robot]
   - id: ps 31
     type: line
     width: 0.7
     directed: false
-    control points: [cp 03, cp 31]
+    control points: [cp 03, cp 31, cp 32, cp 53]
     users: [human, robot]
-  - id: ps 32
-    type: line
-    width: 0.7
-    directed: false
-    control points: [cp 31, cp 32]
-    users: [human, robot]
-  - id: ps 33
-    type: line
-    width: 0.7
-    directed: false
-    control points: [cp 32, cp 53]
-    users: [human, robot]
-  - id: ps 51
-    type: line
-    width: 0.7
-    directed: false
-    control points: [cp 51, cp 52]
-    users: [human, robot]
+  # - id: ps 32
+  #   type: line
+  #   width: 0.7
+  #   directed: false
+  #   control points: [cp 31, cp 32]
+  #   users: [human, robot]
+  # - id: ps 33
+  #   type: line
+  #   width: 0.7
+  #   directed: false
+  #   control points: [cp 32, cp 53]
+  #   users: [human, robot]
+  # - id: ps 51
+  #   type: line
+  #   width: 0.7
+  #   directed: false
+  #   control points: [cp 51, cp 52]
+  #   users: [human, robot]
   - id: ps 52
     type: line
     width: 0.7
