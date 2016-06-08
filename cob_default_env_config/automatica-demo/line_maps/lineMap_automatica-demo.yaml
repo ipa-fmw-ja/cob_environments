@@ -1,58 +1,42 @@
 source_id: "laserscan"
 features:
   - id: 0
-    source: [-4, 3, 0.0]
-    target: [4, 3, 0.0]
+    source: [-3.41275, 3, 0.0]
+    target: [3.62155, 3.01305, 0.0]
     description: NorthWall
   - id: 1
-    source: [4, 3, 0.0]
-    target: [4, -3, 0.0]
+    source: [3.6607, 3, 0.0]
+    target: [3.6607, -1.28995, 0.0]
     description: EastWall
   - id: 2
-    source: [-4, -3, 0.0]
-    target: [4, -3, 0.0]
+    source: [-3.46495, -1.25078, 0.0]
+    target: [3.5563, -1.22468, 0.0]
     description: SouthWall
   - id: 3
-    source: [-4, 3, 0.0]
-    target: [-4, -3, 0.0]
+    source: [-3.5824, 2.92168, 0.0]
+    target: [-3.51715, -1.21162, 0.0]
     description: WestWall
-
   - id: 4
-    source: [-3, 3, 0.0]
-    target: [-3, 2, 0.0]
-    description: SourceWest
-  - id: 5
-    source: [-3, 2, 0.0]
-    target: [-4, 2, 0.0]
-    description: SourceSouth
-  - id: 6
-    source: [4, -2, 0.0]
-    target: [3, -2.00026, 0.0]
-    description: DrainNorth
-  - id: 7
-    source: [3, -2, 0.0]
-    target: [3, -3, 0.0]
-    description: DrainWest
-
-  - id: 8
-    source: [-0.75, 0.25, 0.0]
-    target: [0.275, 0.25, 0.0]
+    source: [-1.99027, -0.0371846, 0.0]
+    target: [0.458745, -0.0371846, 0.0]
     description: ObstacleSouthNorthNorth
-  - id: 9
-    source: [0.275, 0.25, 0.0]
-    target: [0.275, -1.725, 0.0]
+  - id: 5
+    source: [0.435777, -0.037185, 0.0]
+    target: [0.447261, -0.679648, 0.0]
     description: ObstacleSouthNorthEast
-  - id: 10
-    source: [0.3, -1.725, 0.0]
-    target: [1.25, -1.725, 0.0]
+  - id: 6
+    source: [-0.124908, -0.656673, 0.0]
+    target: [0.469088, -0.645185, 0.0]
     description: ObstacleSouthSouthNorth
-
-  - id: 16
+  - id: 7
     source: [-1.5, 1.525, 0.0]
     target: [1.525, 1.525, 0.0]
     description: ObstacleNorthNorth
-  - id: 17
+  - id: 8
     source: [1.525, 1.525, 0.0]
-    target: [1.525, 0.075, 0.0]
+    target: [1.50203, 0.454084, 0.0]
     description: ObstacleNorthEast
-
+  - id: 9
+    source: [-0.109172, -0.694987, 0.0]
+    target: [-0.120656, -0.0402833, 0.0]
+    description: imark_line_laserscan_13

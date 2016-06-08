@@ -1,18 +1,9 @@
 control points:
-  - id: cp 00
-    location: [-2.3, 2.3]
-    transition: []
-  - id: cp 01
-    location: [-2.1, 2.2]
-    transition: []
   - id: cp 02
-    location: [-2.099910020828247, 0.800000011920929]
+    location: [-2.387009620666504, 1.248008370399475]
     transition: []
   - id: cp 03
-    location: [-2.099999904632568, -0.800000011920929]
-    transition: []
-  - id: cp 04
-    location: [-2.1, 1.3]
+    location: [-2.501940250396729, -0.5932271480560303]
     transition: []
   - id: cp 05
     location: [-3.3, 1.3]
@@ -21,50 +12,35 @@ control points:
     location: [0.800000011920929, 0.800000011920929]
     transition: []
   - id: cp 22
-    location: [1, -0.999888002872467]
+    location: [1.103355646133423, -0.2302326560020447]
     transition: []
   - id: cp 31
-    location: [-0.4000000059604645, -0.4000000059604645]
+    location: [-0.5722596049308777, -0.4918985962867737]
     transition: []
   - id: cp 32
-    location: [-0.800000011920929, -2.299999952316284]
+    location: [-1.500523567199707, -0.9444880485534668]
     transition: []
   - id: cp 51
-    location: [2.200530052185059, 2.200000047683716]
-    transition: []
-  - id: cp 52
-    location: [2.200330018997192, -1.000409960746765]
+    location: [2.143109798431396, 2.03917670249939]
     transition: []
   - id: cp 53
-    location: [2.200419902801514, -2.299999952316284]
+    location: [2.257839918136597, -0.9215133190155029]
     transition: []
   - id: cp 54
-    location: [2.199999809265137, -1.302050471305847]
-    transition: []
-  - id: cp 55
-    location: [2.3, -2.3]
+    location: [2.280387401580811, -0.2107487320899963]
     transition: []
   - id: cp 56
-    location: [3.3, -1.3]
+    location: [3.299999475479126, -0.7600927352905273]
+    transition: []
+  - id: cp 59
+    location: [-2.255346536636353, 2.09209156036377]
     transition: []
 path segments:
-  - id: ps 00
-    type: line
-    width: 0.7
-    directed: false
-    control points: [cp 00, cp 01]
-    users: [human, robot]
   - id: ps 01
     type: line
     width: 0.7
     directed: false
-    control points: [cp 01, cp 04]
-    users: [human, robot]
-  - id: ps 02
-    type: line
-    width: 0.7
-    directed: false
-    control points: [cp 04, cp 02]
+    control points: [cp 59, cp 02]
     users: [human, robot]
   - id: ps 03
     type: line
@@ -76,62 +52,31 @@ path segments:
     type: line
     width: 0.7
     directed: false
-    control points: [cp 04, cp 05]
+    control points: [cp 02, cp 05]
     users: [human, robot]
   - id: ps 11
     type: line
     width: 0.7
     directed: false
-    control points: [cp 01, cp 51, cp 52]
+    control points: [cp 59, cp 51, cp 54]
     users: [human, robot]
-
   - id: ps 21
     type: line
     width: 0.5
     directed: false
-    control points: [cp 02, cp 21, cp 22, cp 52]
+    control points: [cp 02, cp 21, cp 22, cp 54]
     users: [human, robot]
-  # - id: ps 22
-  #   type: line
-  #   width: 0.5
-  #   directed: false
-  #   control points: [cp 21, cp 22]
-  #   users: [human, robot]
-  # - id: ps 23
-  #   type: line
-  #   width: 0.5
-  #   directed: false
-  #   control points: [cp 22, cp 52]
-  #   users: [human, robot]
   - id: ps 31
     type: line
     width: 0.7
     directed: false
     control points: [cp 03, cp 31, cp 32, cp 53]
     users: [human, robot]
-  # - id: ps 32
-  #   type: line
-  #   width: 0.7
-  #   directed: false
-  #   control points: [cp 31, cp 32]
-  #   users: [human, robot]
-  # - id: ps 33
-  #   type: line
-  #   width: 0.7
-  #   directed: false
-  #   control points: [cp 32, cp 53]
-  #   users: [human, robot]
-  # - id: ps 51
-  #   type: line
-  #   width: 0.7
-  #   directed: false
-  #   control points: [cp 51, cp 52]
-  #   users: [human, robot]
   - id: ps 52
     type: line
     width: 0.7
     directed: false
-    control points: [cp 52, cp 54]
+    control points: [cp 54, cp 54]
     users: [human, robot]
   - id: ps 53
     type: line
@@ -144,10 +89,4 @@ path segments:
     width: 0.7
     directed: false
     control points: [cp 54, cp 56]
-    users: [human, robot]
-  - id: ps 55
-    type: line
-    width: 0.7
-    directed: false
-    control points: [cp 53, cp 55]
     users: [human, robot]
