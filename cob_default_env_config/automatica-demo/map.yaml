@@ -1,4 +1,4 @@
-image: automatica-demo-map.pgm
+image: rect3021.pgm
 resolution: 0.050000
 origin: [-6.5, -5.5, 0.000000]
 negate: 0
