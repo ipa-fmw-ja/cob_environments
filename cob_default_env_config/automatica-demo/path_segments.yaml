@@ -1,53 +1,47 @@
 control points:
   - id: cp 02
-    location: [-3.924039125442505, -0.9571008086204529]
+    location: [-3.802611589431763, -0.9251547455787659]
     transition: []
   - id: cp 03
-    location: [-5.231125354766846, -2.077555656433105]
+    location: [-5.231125354766846, -2.077556133270264]
     transition: []
   - id: cp 05
-    location: [-3.832953929901123, 0.1780809164047241]
-    transition: []
-  - id: cp 21
-    location: [-2.090734720230103, -3.70287299156189]
-    transition: []
-  - id: cp 31
-    location: [-3.767606258392334, -3.289452075958252]
-    transition: []
-  - id: cp 32
-    location: [-4.888858795166016, -3.074484825134277]
+    location: [-4.179993152618408, 0.04135233163833618]
     transition: []
   - id: cp 53
-    location: [-3.397790670394897, -5.00529670715332]
+    location: [-3.397790670394897, -5.005297183990479]
     transition: []
   - id: cp 54
-    location: [-2.489704370498657, -4.717239379882812]
+    location: [-2.489703893661499, -4.717238187789916]
     transition: []
   - id: cp 56
     location: [-2.682199239730835, -5.644402503967285]
     transition: []
-  - id: cp 59
-    location: [-2.007358074188232, -0.9313907623291016]
-    transition: []
   - id: cp 60
-    location: [-1.388262033462524, -5.221024513244629]
+    location: [-1.128440141677856, -5.048824787139893]
     transition: []
   - id: cp 61
-    location: [-0.9557436108589172, -5.711287021636963]
+    location: [-0.6917951107025146, -5.628869533538818]
     transition: []
   - id: cp 62
     location: [0.007500380277633667, -4.099905014038086]
     transition: []
   - id: cp 63
-    location: [-2.567098617553711, 0.175255298614502]
+    location: [-2.523350715637207, 0.08291371166706085]
+    transition: []
+  - id: cp 64
+    location: [-1.783057451248169, -5.467227935791016]
+    transition: []
+  - id: cp 68
+    location: [-1.843461871147156, -3.81068229675293]
+    transition: []
+  - id: cp 73
+    location: [-3.38447380065918, -1.525170683860779]
+    transition: []
+  - id: cp 75
+    location: [-2.178960084915161, -0.7087733745574951]
     transition: []
 path segments:
-  - id: ps 01
-    type: line
-    width: 0.7
-    directed: false
-    control points: [cp 59, cp 02]
-    users: [human, robot]
   - id: ps 03
     type: line
     width: 0.7
@@ -59,24 +53,6 @@ path segments:
     width: 0.7
     directed: false
     control points: [cp 02, cp 05]
-    users: [human, robot]
-  - id: ps 21
-    type: line
-    width: 0.5
-    directed: false
-    control points: [cp 02, cp 21, cp 54]
-    users: [human, robot]
-  - id: ps 31
-    type: line
-    width: 0.7
-    directed: false
-    control points: [cp 03, cp 31, cp 32, cp 53]
-    users: [human, robot]
-  - id: ps 52
-    type: line
-    width: 0.7
-    directed: false
-    control points: [cp 54, cp 54]
     users: [human, robot]
   - id: ps 53
     type: line
@@ -100,7 +76,7 @@ path segments:
     type: bezier
     width: 1
     directed: false
-    control points: [cp 59, cp 62]
+    control points: [cp 75, cp 62]
     users: [human, robot]
   - id: ps 57
     type: bezier
@@ -112,11 +88,41 @@ path segments:
     type: bezier
     width: 1
     directed: false
-    control points: [cp 60, cp 54]
+    control points: [cp 60, cp 64, cp 54]
     users: [human, robot]
   - id: ps 59
     type: bezier
     width: 1
     directed: false
-    control points: [cp 63, cp 59]
+    control points: [cp 63, cp 75]
+    users: [human, robot]
+  - id: ps 61
+    type: bezier
+    width: 1
+    directed: false
+    control points: [cp 68, cp 54]
+    users: [human, robot]
+  - id: ps 62
+    type: bezier
+    width: 1
+    directed: false
+    control points: [cp 53, cp 03]
+    users: [human, robot]
+  - id: ps 65
+    type: bezier
+    width: 1
+    directed: false
+    control points: [cp 68, cp 73]
+    users: [human, robot]
+  - id: ps 66
+    type: bezier
+    width: 1
+    directed: false
+    control points: [cp 02, cp 73]
+    users: [human, robot]
+  - id: ps 67
+    type: bezier
+    width: 1
+    directed: false
+    control points: [cp 73, cp 75]
     users: [human, robot]
