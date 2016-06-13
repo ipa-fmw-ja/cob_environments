@@ -9,28 +9,22 @@ control points:
     location: [-4.179993152618408, 0.04135233163833618]
     transition: []
   - id: cp 53
-    location: [-3.397790670394897, -5.005297183990479]
+    location: [-3.390284061431885, -4.998702049255371]
     transition: []
   - id: cp 54
-    location: [-2.489703893661499, -4.717238187789916]
-    transition: []
-  - id: cp 56
-    location: [-2.682199239730835, -5.644402503967285]
+    location: [-2.471429347991943, -4.435236930847168]
     transition: []
   - id: cp 60
-    location: [-1.128440141677856, -5.048824787139893]
+    location: [-0.6339325308799744, -4.681133270263672]
     transition: []
   - id: cp 61
-    location: [-0.6917951107025146, -5.628869533538818]
+    location: [-0.3020191490650177, -5.369860649108887]
     transition: []
   - id: cp 62
     location: [0.007500380277633667, -4.099905014038086]
     transition: []
   - id: cp 63
     location: [-2.523350715637207, 0.08291371166706085]
-    transition: []
-  - id: cp 64
-    location: [-1.783057451248169, -5.467227935791016]
     transition: []
   - id: cp 68
     location: [-1.843461871147156, -3.81068229675293]
@@ -40,6 +34,15 @@ control points:
     transition: []
   - id: cp 75
     location: [-2.178960084915161, -0.7087733745574951]
+    transition: []
+  - id: cp 76
+    location: [-1.18659520149231, -5.951533794403076]
+    transition: []
+  - id: cp 77
+    location: [-2.894083976745605, -5.771779537200928]
+    transition: []
+  - id: cp 79
+    location: [-1.851747751235962, -5.175163269042969]
     transition: []
 path segments:
   - id: ps 03
@@ -60,12 +63,6 @@ path segments:
     directed: false
     control points: [cp 54, cp 53]
     users: [human, robot]
-  - id: ps 54
-    type: line
-    width: 0.7
-    directed: false
-    control points: [cp 54, cp 56]
-    users: [human, robot]
   - id: ps 55
     type: bezier
     width: 1
@@ -83,12 +80,6 @@ path segments:
     width: 1
     directed: false
     control points: [cp 62, cp 60]
-    users: [human, robot]
-  - id: ps 58
-    type: bezier
-    width: 1
-    directed: false
-    control points: [cp 60, cp 64, cp 54]
     users: [human, robot]
   - id: ps 59
     type: bezier
@@ -125,4 +116,22 @@ path segments:
     width: 1
     directed: false
     control points: [cp 73, cp 75]
+    users: [human, robot]
+  - id: ps 68
+    type: bezier
+    width: 1
+    directed: false
+    control points: [cp 61, cp 76]
+    users: [human, robot]
+  - id: ps 69
+    type: bezier
+    width: 1
+    directed: false
+    control points: [cp 53, cp 77]
+    users: [human, robot]
+  - id: ps 70
+    type: line
+    width: 0.9
+    directed: false
+    control points: [cp 54, cp 79, cp 60]
     users: [human, robot]
