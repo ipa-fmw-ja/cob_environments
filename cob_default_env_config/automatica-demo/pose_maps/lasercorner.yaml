@@ -1,0 +1,14 @@
+source_id: "lasercorner"
+features:
+  - id: 0
+    pose: [0.553599, -0.165813, -2.3663]
+    description: imark_pose_lasercorner_0
+  - id: 1
+    pose: [3.98842, -2.99123, 2.29159]
+    description: imark_pose_lasercorner_1
+  - id: 2
+    pose: [2.08289, 1.27971, -2.44079]
+    description: imark_pose_lasercorner_2
+  - id: 3
+    pose: [-4.02042, 2.9912, -0.769713]
+    description: imark_pose_lasercorner_3
