@@ -1,4 +1,4 @@
-source_id: "laserscan"
+source_id: "laserline"
 features:
   - id: 0
     source: [6.66848, 3.1436, 0.0]
@@ -24,3 +24,16 @@ features:
     source: [-2.77105, 3.25257, 0.0]
     target: [-3.42437, 3.22928, 0.0]
     description: imark_line_laserscan_5
+  - id: 6
+    source: [2.54452, -0.975892, 0.0]
+    target: [-2.0474, -0.935664, 0.0]
+    description: imark_line_laserscan_6
+  - id: 7
+    source: [2.5431, 0.781398, 0.0]
+    target: [-0.587053, 0.756939, 0.0]
+    description: imark_line_laserscan_7
+  - id: 8
+    source: [-2.11243, -0.935655, 0.0]
+    target: [-2.12423, 0.173589, 0.0]
+    description: imark_line_laserscan_8
+

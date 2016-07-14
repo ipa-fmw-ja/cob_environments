@@ -1,20 +1,26 @@
 source_id: "lasermarker"
 features:
   - id: 0
-    position: [-2.20895, -2.76781, 0.0]
+    position: [-2.65162, -3.26633, 0.0]
     description: imark_point_lasermarker_0
   - id: 1
-    position: [-3.14475, -2.7748, 0.0]
+    position: [-3.60236, -3.29637, 0.0]
     description: imark_point_lasermarker_1
   - id: 2
-    position: [2.19672, 2.64462, 0.0]
-    description: imark_point_lasermarker_2
-  - id: 3
-    position: [1.11231, 2.66832, 0.0]
+    position: [6.28927, -1.05965, 0.0]
     description: imark_point_lasermarker_3
-  - id: 4
-    position: [4.18598, 2.78561, 0.0]
+  - id: 3
+    position: [6.29962, -2.02523, 0.0]
     description: imark_point_lasermarker_4
-  - id: 5
-    position: [5.2531, 2.77994, 0.0]
+  - id: 4
+    position: [5.73982, 2.69162, 0.0]
     description: imark_point_lasermarker_5
+  - id: 5
+    position: [4.66154, 2.65956, 0.0]
+    description: imark_point_lasermarker_6
+  - id: 6
+    position: [2.63659, 2.63938, 0.0]
+    description: imark_point_lasermarker_7
+  - id: 7
+    position: [1.56947, 2.64343, 0.0]
+    description: imark_point_lasermarker_8
