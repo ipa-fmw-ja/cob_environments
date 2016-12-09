@@ -1,0 +1,19 @@
+tray1: [4.87, 9, 1.57]
+tray6: [14.4, 9, 1.57]
+tray12: [26.5, 9, 1.57]
+belt_1_start: [20.7, 6, -1.57]
+belt_1_end: [20.7, -6.5, 1.57]
+belt_2_start: [28.8, 6, -1.57]
+belt_2_end: [28.8, -6.5, 1.57]
+
+storage_center: [-8.5, 1.1, 0]
+
+ufo_north_west: [8.7, -15, -1.57]
+ufo_north_east: [21, -15, -1.57]
+ufo_south_west: [8.7, -30, 1.57]
+ufo_south_east: [21, -30, 1.57]
+
+charger: [-18, -37, 0]
+
+supermarket_center: [-9, -21, 0]
+
