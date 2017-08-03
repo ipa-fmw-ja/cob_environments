@@ -102,11 +102,13 @@ path segments:
     directed: false
     control points: [cp 1349283698, cp 1349283699]
     users: [human, robot]
+    target_velocity: 4.0
   - id: ps 1953394500
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283699, cp 1349283755, cp 1349283700]
+    target_velocity: 1.5
     users: [human, robot]
   - id: ps 1953394501
     type: bezier
@@ -114,141 +116,165 @@ path segments:
     directed: false
     control points: [cp 1349283700, cp 1349283701]
     users: [human, robot]
+    target_velocity: 4.0
   - id: ps 1953394502
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283701, cp 1349283716]
+    target_velocity: 4.0
     users: [human, robot]
   - id: ps 1953394503
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283703, cp 1349283737]
+    target_velocity: 4.0
     users: [human, robot]
   - id: ps 1953394504
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283713, cp 1349283734]
+    target_velocity: 4.0
     users: [human, robot]
   - id: ps 1953394505
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283703, cp 1349283752, cp 1349283716]
+    target_velocity: 1.5
     users: [human, robot]
   - id: ps 1953394506
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283703, cp 1349283753, cp 1349283701]
+    target_velocity: 1.5
     users: [human, robot]
   - id: ps 1953394507
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283736, cp 1349283710]
+    target_velocity: 4.0
     users: [human, robot]
   - id: ps 1953394508
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283711, cp 1349283712]
+    target_velocity: 4.0
     users: [human, robot]
   - id: ps 1953394509
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283713, cp 1349283737]
+    target_velocity: 4.0
     users: [human, robot]
   - id: ps 1953394510
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283736, cp 1349283715]
+    target_velocity: 4.0
     users: [human, robot]
   - id: ps 1953394511
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283716, cp 1349283742]
+    target_velocity: 4.0
     users: [human, robot]
   - id: ps 1953394512
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283718, cp 1349283719]
+    target_velocity: 4.0
     users: [human, robot]
   - id: ps 1953394513
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283720, cp 1349283733]
+    target_velocity: 4.0
     users: [human, robot]
   - id: ps 1953394517
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283732, cp 1349283729]
+    target_velocity: 4.0
     users: [human, robot]
   - id: ps 1953394518
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283729, cp 1349283754, cp 1349283698]
+    target_velocity: 1.5
     users: [human, robot]
   - id: ps 1953394519
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283733, cp 1349283732]
+    target_velocity: 4.0
     users: [human, robot]
   - id: ps 1953394520
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283733, cp 1349283747, cp 1349283734]
+    target_velocity: 1.5
     users: [human, robot]
   - id: ps 1953394521
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283734, cp 1349283747, cp 1349283732]
+    target_velocity: 1.5
     users: [human, robot]
   - id: ps 1953394522
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283736, cp 1349283751, cp 1349283737]
+    target_velocity: 1.5
     users: [human, robot]
   - id: ps 1953394523
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283736, cp 1349283748, cp 1349283713]
+    target_velocity: 1.5
     users: [human, robot]
   - id: ps 1953394524
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283713, cp 1349283749, cp 1349283715]
+    target_velocity: 1.5
     users: [human, robot]
   - id: ps 1953394525
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283715, cp 1349283750, cp 1349283737]
+    target_velocity: 1.5
     users: [human, robot]
   - id: ps 1953394526
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283718, cp 1349283745, cp 1349283742]
+    target_velocity: 1.5
     users: [human, robot]
   - id: ps 1953394527
     type: bezier
     width: 1
     directed: false
     control points: [cp 1349283719, cp 1349283746, cp 1349283720]
+    target_velocity: 1.5
     users: [human, robot]
